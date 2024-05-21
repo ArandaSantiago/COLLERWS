@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLERWS - Gafas de Sol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            color: #555;
+        }
+        .product, .testimonial, .contact {
+            background-color: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin: 0.5rem 0 0.2rem;
+        }
+        .contact input, .contact textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact button {
+            padding: 0.5rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COLLERWS</h1>
+        <p>PONLE ESTILO A TU VIDA</p>
+    </header>
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="productos">
+            <h2 class="section-title">Productos</h2>
+            <div class="product">
+                <h3>Modelo 1</h3>
+                <p>Descripción del modelo 1.</p>
+            </div>
+            <div class="product">
+                <h3>Modelo 2</h3>
+                <p>Descripción del modelo 2.</p>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </section>
+        <section id="testimonios">
+            <h2 class="section-title">Testimonios</h2>
+            <div class="testimonial">
+                <p>"Las mejores gafas de sol que he comprado. Excelente calidad y diseño."</p>
+                <p>- Cliente Satisfecho</p>
+            </div>
+            <div class="testimonial">
+                <p>"Me encantan las gafas de COLLERWS, son elegantes y cómodas."</p>
+                <p>- Otro Cliente Satisfecho</p>
+            </div>
+            <!-- Agrega más testimonios aquí -->
+        </section>
+        <section id="contacto">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact">
+                <form>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 COLLERWS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
